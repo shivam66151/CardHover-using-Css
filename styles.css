@@ -15,8 +15,9 @@ body{
     transition: background 0.8s;
 }
 .card{
-    background: url(shivam 2.jfif) center/cover;
-    background-size: 400px;
+    background: url(shivampp.jpg) center/cover;
+    background-repeat: repeat-y;
+    background-size: 500px;
     background-position: center;
     position: relative;
 }
@@ -49,7 +50,7 @@ body{
     font-size: 25px;
     text-shadow: 0 5px 5px #111;
     opacity: 0;
-    transform: all 0.8s;
+    transition: all 0.8s;
     transform: translateY(20px);
 }
 .card:hover span{
@@ -75,4 +76,3 @@ body{
 .card:hover .social-media-list {
     opacity: 1;
 }
-
